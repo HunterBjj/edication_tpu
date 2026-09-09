@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barBtnExport.Hint" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="barBtnCreate.Hint" xml:space="preserve">
+    <value>Create record</value>
+  </data>
+  <data name="barBtnEdit.Hint" xml:space="preserve">
+    <value>Edit record</value>
+  </data>
+  <data name="barBtnDelete.Hint" xml:space="preserve">
+    <value>Delete record</value>
+  </data>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
+        FwAAAk1TRnQBSQFMAgEBBAEAAQkBAAEMAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AIgABlQFtASYB/wGR
+        AWABFQH/AYYBVAEMAf8BgQFQAQwB/wGBAUwBCwH/AX8BSQELAf8BegFFAQsB/wF0AUEBCwH/AW8BPgEK
+        Af8BawE7AQoB/wFnATkBCgH/AWABNgEJAf8BXAEzAQkB/wFXATEBCQH/AV8BNQEJAf8BNwElAQ0B/0AA
+        AeABxgGoAf8BwAGOAVkB/wHAAY4BWQH/AcABjgFZAf8BvwGMAVcB/wG/AYwBVwH/Ab4BiwFWAf8BvgGL
+        AVUB/wG9AYoBVAH/Ab0BiQFSAf8BvAGIAVEB/wGyAX8BOwH/ATkCAQFdEAABXAEFAQQBvAGCAS8BGwHq
+        AYMBMwEbAesBggEvARsB6gGCAS8BGwHqAYIBLwEbAeoBfgEtARkB6QF+AS0BGQHpAX4BLQEZAekBfgEt
+        ARkB6QF+AS0BGQHpAX4BLQEZAekBawESAQgB2QERAgEBFQQAAbYBigFTAf8BzgGmAX4B/wHOAacBfgH/
+        AcsBogF3Af8ByAGcAW4B/wHFAZYBZgH/AcIBkQFfAf8BvwGMAVcB/wG7AYcBTwH/AbgBggFIAf8BtQGB
+        AUIB/wGyAX4BOwH/Aa8BegE1Af8BrQF2ATAB/wGZAV0BEAH/AV8BMwEIAf8EAAEDAgEBAgE3AgEBWAFU
+        AQIBAwGnASQCAQEzGAABKgIBAT0BVQECAQMBqgEyAgEBTgECAwEEAAHwAeQB1gH/Af4B/QH8Af8B/QH7
+        AfkB/wH3AfIB6wH/AfQB7AHjAf8B+AHzAe4B/wH4AfIB7AH/AfYB7wHnAf8B+AHzAe0B/wH3AfEB6gH/
+        AfYB7wHnAf8B2wG9AZsB/wE5AgEBXRAAAWQBCwEIAcgB+QH1AfEB/wH6AfcB8wH/AfoB9wHzAf8B+gH3
+        AfMB/wH6AfcB8wH/AfoB9wHzAf8B+gH3AfMB/wH6AfcB8wH/AfoB9wHzAf8B+gH3AfMB/wH2Ae8B5wH/
+        AXIBGAEMAdwBEQIBARUEAAG0AYkBUQH/AeEByAGrAf8B+gH/AfwB/wH6Af8B/AH/AfgB/wH6Af8B9gH/
+        AfkB/wH0Af8B+AH/AfMB/wH3Af8B8QH/AfYB/wHyAf8B9wH/AfYB/wH7Af8B9gH/AfsB/wH5Af8B/gH/
+        AfUB/wH7Af8BrgF4ATIB/wFWATABCQH/BAABNAIBAVEBQAEIAVUB7gI+Af0B/wFaAQMBDQHOASYCAQE2
+        EAABLAIBAUEBVgEEARYB2AI+AfsB/wFPAQYBMQHlAS0CAQFDBAAB8AHkAdYB/wH9AfwB+wH/AfwB+wH4
+        Af8ByAHMAdsB/wF+AYUBsAH/AekB1gHBAf8B7wHiAdMB/wHtAd8BzgH/Ae4B4QHSAf8B8QHlAdgB/wH0
+        AewB4gH/AdoBvAGZAf8BOQIBAV0QAAFiAQkBBwHEAv4B/SX/AfsB+AH1Af8BcAEZAQoB3QERAgEBFQQA
+        AbkBkAFbAf8B4AHHAaoB/wH+G/8B8gH9AfQB/wHOAeMB0AH/AdAB4wHSAf8B0gHgAdQB/wHYAeoB3AH/
+        AbABewE2Af8BXAEzAQkB/wQAAVcBAgEEAbUCIgH3Af8CWwH7Af8CRQH4Af8BVQEEARgB2gEsAgEBQggA
+        ATQCAQFRAU0BBQEuAeQCUwH3Af8CdQH7Af8CMAH1Af8BUgICAZ8EAAHwAeQB1gH/Af4B/QH8Af8B/AH7
+        AfgB/wHKAdIB4AH/AY4BowHAAf8BjAGkAdIB/wG+AcAB0QH/AewB3QHLAf8B6wHcAckB/wHqAdgBxAH/
+        AeoB2AHEAf8B0wGvAYQB/wE7AgEBYAECAwEMAAFjAQoBBwHFAv4B/Rr/Av4B/wH8AfsB+AH/AY0BvQHn
+        Af8B+AHyAewB/wF4AR4BDgHmARECAQEVBAABvQGWAWQB/wHkAc8BtQH/Aa4B5gG2Af8BegHVAYEB/wF/
+        AdUBgQH/AXwB0gGBAf8BfAHNAYEB/wF8AcsBgQH/AXsBwAGBAf8BYQG0AWoB/wEoAbIBOQH/ARgBrAEp
+        Af8BCwGkARsB/wGEAdEBjwH/AbYBgQFCAf8BYwE3AQkB/wQAAVICAgGiAiwC/wJAAv8CYQH+Af8CQgH0
+        Af8BUAEFASUB4gEzAgEBTwE5AgEBXQFDAQcBQgHrAlAB9AH/AnkB/QH/AlwC/wJHAv8BSwICAYwEAAHw
+        AeQB1gH/Af4B/QH8Af8B/AH7AfgB/wHTAeMB8wH/AbMB2AH3Af8BowHTAfcB/wF3AZcB0wH/AeEByAGr
+        Af8B6wHcAckB/wHqAdgBxAH/AegB1gHAAf8BzQGkAXsB/wE/AgEBawEOAgEBEQEIAgEBCQECAwEEAAFj
+        AQoBBwHFAv4B/Q3/Av4B/QH/Af4C/QH/AfEB5gHaAf8BagG3AeoB/wGsAcAB6AH/AXwB5QH8Af8BxAHJ
+        AdwB/wFUAVsBfQH0AQ4CAQERBAABwAGeAW8B/wHlAdABtwH/AdYB+QHcAf8BKgH2ATEB/wELAe8BFgH/
+        ATQB3wFKAf8BMAHbAUgB/wEnAdIBQAH/ASABswEzAf8BMQHMAUcB/wEnAdcBQQH/ARgB0QEyAf8BewHo
+        AYQB/wH1Af8B+QH/AbIBfgE6Af8BaQE6AQoB/wQAASACAQEsAVoBAwEKAcYCLgL/Aj4C/wJWAf4B/wI1
+        AewB/wFCAQYBQAHsATYBCQFVAfECQgHwAf8CaQH+Af8CUwL/AkEC/wFYAQIBBAG3ARoCAQEiBAAB8AHk
+        AdYB/wH+Af0B/AH/AfwB+wH4Af8B0AHnAfYB/wGBAdsB+wH/AWgB1AH+Af8BWwGxAfIB/wGNAaYB1QH/
+        Ae4B4AHQAf8B6wHaAccB/wHoAdUBvgH/AcwBowF5Af8BQAIBAW0BFAIBARkBEwIBARgBEQIBARUEAAFj
+        AQoBBwHHAv4B/QH/Av4B/QH/Af4B/QH8Af8B/QH8AfoB/wH8AfoB+AH/AfwB+QH2Af8B9QHuAeUB/wFz
+        Ad8B+QH/AVkBuwHyAf8BfQHmAfwB/wFxAdQB+AH/AVMBjwG3AfoBBQIBAQUEAAHFAaYBegH/AeUBzwG2
+        Bf8B2AH9AdsB/wFQAe0BYwH/AVAB4AFtAf8BRwHdAWIB/wE9AcIBUAH/AVIB1gFnAf8BOQHaAVIB/wEq
+        AdQBQwH/ARsBvAExAf8BsAHdAbUB/wH9A/8BsgF/ATwB/wFwAT4BCgH/CAABGgIBASMBWAECAQYBuQIs
+        Av8CPwL/AlEB/gH/Ai8B5gH/AjQB6wH/AlEB/gH/AkAC/wI4Av8BUwECAQMBpgESAgEBFwgAAfAB5AHW
+        Af8C/gH9Af8B/QH8AfsB/wHTAeoB+AH/AW8B3gH7Af8BUwHUAf4B/wFUAcIB/gH/AVUBkQHiAf8B8gHp
+        Ad4B/wHyAekB3QH/Ae0B3gHNAf8BzgGnAX4B/wFAAgEBbQEUAgEBGQEUAgEBGQESAgEBFwQAAWMBCgEH
+        AccB/AH6AfcB/wH8AfoB+AH/AfwB+QH2Af8B+wH4AfQB/wH6AfYB8gH/AfcB8QHrAf8BdQG/AeoB/wFj
+        Ab4B7wH/AYQB9QH+Af8BkwH8Av8BfgHkAfwB/wFdAXoBngH4AVUBAwEEAakEAAHIAasBgQH/AeYB0gG7
+        Af8B9wH+AfkF/wHaAfoB4QH/AWQB5wF+Af8BRwHLAVwB/wFpAdwBfQH/AUkB4AFkAf8BQgHdAVwB/wFL
+        AdEBYAH/AT8BzQFUAf8BVAHNAWQB/wHjAfQB5wH/AbYBgQFCAf8BdgFCAQoB/wwAARICAQEWAVQBAgED
+        AacCWQH+Af8CZwL/AmMB/gH/AmUC/wJmAv8CTQH9Af8BTQICAZABCgIBAQsMAAHwAeQB1gn/Af0B/AH7
+        Af8BgQHYAfoB/wFHAdsB/gH/AUEBwgH+Af8BQwGjAfgB/wGdAagB0gH/AfQB7AHiAf8B8gHpAd0B/wHW
+        AbQBjQH/AT4CAQFmARICAQEWARMCAQEYAQsCAQENBAABZAELAQgByAH6AfYB8QH/AfoB9gHxAf8B+QH1
+        AfAB/wH4AfMB7gH/AfcB8gHrAf8B9QHtAeQB/wF0AcIB6wH/AWUBwgHwAf8BhAH1Af4B/wGTAfwC/wF+
+        AeUB/AH/AV8BhgGtAfkBVgIDAa0EAAHMAbMBiAH/AegB1AG+Af8B9wH+AfkB/wH8Af8B/QX/AZQB3gGe
+        Af8BdAHgAYIB/wFcAecBdwH/AUwB4QFnAf8BTQHQAWMB/wHYAfEB3AH/AfcB/wH6Af8B8AH/AfQB/wHw
+        Af0B9QH/AbUBgQFBAf8BfAFGAQsB/wwAAQMCAQEDAUoCAgGHAikB2wH/AmQC/wJsAv8CbQL/AmIC/wEz
+        AQ4BfwH2AT4CAQFnEAAB8AHkAdYN/wHTAeoB/AH/AT4B1gH8Af8BMAHJAf4B/wE1Aa4B/gH/AVoBjwHh
+        Af8B6gHaAcYB/wHxAeUB2AH/AdcBtQGOAf8BOQIBAV0BAgMBAQUCAQEFAQIDAQQAAWYBCwEIAckB+AHz
+        Ae0B/wH6AfYB8gH/AfoB9wHzAf8B+gH3AfMB/wH6AfcB8wH/AfgB8wHuAf8B7AHdAcsB/wFyAd0B+AH/
+        AVwBvwHyAf8BfQHnAfwB/wFzAdYB+AH/AVIBjQG1AfoBBgIBAQYEAAHQAbkBkgH/AekB1wHCAf8B+AH+
+        AfoF/wGxAecBuAH/AYUB5wGXAf8BbwHtAYQB/wFYAecBdQH/AVAB1QFqAf8BPwHRAVkB/wFwAdMBfwH/
+        AfYB+QH2Bf8B9AH9AfgB/wG2AYEBRAH/AYEBSgELAf8IAAEHAgEBCAFJAgIBhgEMAQYBgwH+Ai4B5AH/
+        AmwC/wJ6Av8CeQL/AmcC/wIiAdkB/wE1AQYBPwHxATwCAQFkDAAB8AHkAdYR/wFfAcsB+QH/ASQB0gH+
+        Af8BJAG2Af4B/wE2AYkB7wH/AdIBrQGCAf8B7QHeAc0B/wHUAbABhgH/ATkCAQFdEAABXQEFAQQBugL+
+        Af0V/wHuAeEB0QH/AXkBvAHnAf8BrgGtAdQB/wF8AeUB/AH/AcYBtAHIAf8BWQFPAWsB8QENAgEBDwQA
+        AdUBwAGdAf8B6gHaAcYB/wH8Af4B/AH/AbcB7AG+Af8BigHrAZwB/wF/AfMBlQH/AWcB7QGBAf8BgQHp
+        AZQB/wFcAdsBdQH/AVAB5AFsAf8BOwHbAVcB/wF4AdQBgQH/AfYB+gH2Af8B9wH+AfoB/wG3AYEBRwH/
+        AYEBTwELAf8EAAEKAgEBDAFLAgIBiQIGAZAB/wI4AekB/wKAAv8CigL/AWkBTQHFAfoCeAL/AooC/wJ4
+        Av8CKAHcAf8BMwEGAT8B8gE7AgEBYAEEAgEBBAQAAfAB5AHWEf8BugHnAfsB/wEYAcgB+wH/ARgBuwH+
+        Af8BHgGTAfoB/wFhAYkB2QH/AeIBygGvAf8B0AGpAYEB/wE5AgEBXRAAAWABBgEFAb0C/gH9Gf8B+QH1
+        AfAB/wHoAdYBwQH/AZABrQHYAf8B5AHOAbQB/wFyARQBCQHcCAAB2QHGAacB/wHtAd8BzgH/AdIB9QHY
+        Af8BjgHwAaMB/wGSAfoBrQH/AXwB8wGUAf8BmwH1Aa8B/wH5Af8B+wH/Ab8B9wHKAf8BYAHmAXsB/wFa
+        AeUBdAH/AUMB2gFeAf8BmQHhAaMB/wH9Av4B/wG5AYIBSQH/AYYBUwEMAf8EAAEwAgEBSQIGAYkB/wJA
+        AeYB/wKOAv8CogL/AW8BRgGOAfQBPgIBAWgBSQICAYUCiAL/AqAC/wKDAv8CLQHaAf8BQwEGASkB6wEb
+        AgEBJAQAAfAB5AHWEf8B+wH4AfQB/wFVAc0B9wH/AQ0BwwH9Af8BEAGgAf4B/wEbAXQB6AH/AccBmgFs
+        Af8BxgGYAWgB/wE5AgEBXRAAAWABBgEFAb0C/gH9Ff8B/QH8AfsB/wH4AfMB7QH/AfEB5wHbAf8B4AHH
+        AaoB/wHfAcUBpgH/AXMBGAEMAdwIAAHcAc0BsAH/Ae0B3wHOAf8B8wH9AfYB/wHwAf8B9QH/AewB/wHx
+        Af8B6wH+AfAB/wH7Af8B/Qn/AeoB/gHuAf8B5gH9AesB/wHmAf0B6wH/AewB/gHvAf8B+gH+AfwB/wG6
+        AYUBTQH/AYsBWAEMAf8EAAE8AgEBYwJSAe8B/wKgAv8CtgL/AXsBVwGgAfYBPAIBAWIEAAEDAgEBAgFL
+        AgIBigKaAv8CtAL/ApcC/wI8AdoB/wEmAgEBNgQAAfAB5AHWEf8B/gH9AfsB/wGZAdgB9QH/ARQBzwH7
+        Af8BCQGjAf4B/wEPAYIB/AH/AVUBeQHEAf8BYgEHAQYBxAEaAgEBIhAAAWABBgEFAb0C/gH9Ff8B9wHy
+        AesB/wHiAcoBrgH/AeUBzwG2Af8ByQGzAZIB/QGmAWMBQQH3ATACAQFJCAAB4AHTAbsB/wHtAd8BzgH/
+        AfMB+gH0Af8B+wH8AfsB/wH5AfwB+gH/AfkB+wH6Af8B9gH7AfgB/wH0AfoB9gH/AfMB+gH2Af8B9wH6
+        AfkB/wH3AfoB+QH/AfcB+gH5Af8B9wH5AfoB/wHtAfYB8wH/AbgBggFJAf8BjgFbARAB/wQAAR8CAQEr
+        AWIBEgEjAdkC1AL/AYEBUgGEAfMBPAIBAWIMAAEGAgEBBgFLAgIBiwKwAv8CywL/AVgBAwEFAbcBEAIB
+        ARMEAAHwAeQB1hH/Af0B/AH7Af8B9gHwAegB/wFBAckB9AH/AQYBuAH+Af8BCgGUAf4B/wE/ATYBegHx
+        AUECAQFuEAABEQIBARUBWgEFAQQBtAL+Af0R/wH7AfkB9QH/AfYB7wHnAf8BzQGxAZIB/gH3AfIB6wH/
+        AYkBQAEpAewBKQIBATwMAAHmAdwByAH/AfEB5gHZAf8B7AHdAcsB/wHqAdkBxQH/AecB1AG9Af8B5AHP
+        AbUB/wHiAcoBrgH/Ad8BxAGlAf8B2wG+AZwB/wHYAbgBkwH/AdUBswGLAf8B0gGtAYIB/wHOAaYBfgH/
+        AcsBoAF1Af8BwQGPAVsB/wGcAWgBHQH/BAABAgMBASgCAQE5AVwBBwEOAcgBPgIBAWgUAAEGAgEBBgFN
+        AgIBjwFWAQIBBAGwARcCAQEeCAAB8AHkAdYO/wL+Af8B/AH6AfgB/wH6AfYB8gH/AYcBvwHkAf8BEAHO
+        Af0B/wFMAb4B/gH/AV4BZwGaAfYBUQICAZ0QAAERAgEBFQFaAQUBBAG0Av4B/Q3/AfwB+gH3Af8B9wHw
+        AekB/wHsAd0BywH/AY8BRwE9AesBhwE5ASYB6gEhAgEBLRAAAdgB0wG3Af8B5gHcAcgB/wHhAdQBvAH/
+        Ad4BzgGzAf8B2gHIAagB/wHXAcIBoQH/AdMBvAGXAf8B0AG2AY4B/wHMAbABhAH/AcgBqQGBAf8BxAGj
+        AXkB/wHAAZ0BbwH/Ab0BlwFnAf8BuQGRAV4B/wG6AZMBYQH/AZoBcwEtAf9AAAHqAdkBxgH/AfAB5AHW
+        Af8B8AHkAdYB/wHwAeQB1gH/AfAB5AHWAf8B7AHdAcwB/wHoAdYBwAH/AdoBvAGZAf8BMQGgAecB/wFf
+        AVABdgHyAU4CAgGTASICAQEwEAABEQIBARUBaAEPAQsB0wF3ASIBGwHfAZkBTwFDAe8BowFhAU8B8gGh
+        AWEBTAHyAaEBYQFLAfIBhwFAAS8B6gF9ASQBHQHgAZYBSQEtAfEBGgIBASIUAAFCAU0BPgcAAT4DAAEo
+        AwABQAMAASADAAEBAQABAQYAAQEWAAP/gwAC/wEAAQcBgAEBAgABhwHhAQABBwGAAQECAAGDAcEBAAEH
+        AYABAQIAAoEBAAEDAYABAQIAAYABAQIAAYABAQIAAYABAQIAAYABAQIAAcABAwIAAYABAQIAAeABBwIA
+        AYABAQIAAeABDwIAAYABAQIAAcABBwEAAQcBgAEBAgABgAEBAQABBwGAAQMCAAGAAQEBAAEHAYABAwIA
+        AYEBAQEAAQcBgAEDAgABgwGBAQABDwEAAQcCAAGHAcMBAAEPAQABDwIAAv8BAAEPAQABHxYACw==
+</value>
+  </data>
+  <data name="gridBand1.Caption" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="gridBand12.Caption" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="gridBand12.ToolTip" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="gridBand2.Caption" xml:space="preserve">
+    <value>Absolute seam</value>
+  </data>
+  <data name="gridBand13.Caption" xml:space="preserve">
+    <value>Permeability</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridBand13.MinWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="gridBand13.ToolTip" xml:space="preserve">
+    <value>Permeability</value>
+  </data>
+  <data name="gridBand13.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="gridBand3.Caption" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="gridBand17.Caption" xml:space="preserve">
+    <value>Specific</value>
+  </data>
+  <data name="gridBand15.Caption" xml:space="preserve">
+    <value>Seam resestivity</value>
+  </data>
+  <data name="gridBand16.Caption" xml:space="preserve">
+    <value>Seam type</value>
+  </data>
+  <data name="gridBand8.Caption" xml:space="preserve">
+    <value>Oil-and-gas saturation</value>
+  </data>
+  <data name="gridBand8.ToolTip" xml:space="preserve">
+    <value>Oil-and-gas saturation</value>
+  </data>
+  <data name="gridBand18.Caption" xml:space="preserve">
+    <value>Gas saturation for background</value>
+  </data>
+  <data name="gridBand18.ToolTip" xml:space="preserve">
+    <value>Gas saturation for background</value>
+  </data>
+  <data name="gridBand9.Caption" xml:space="preserve">
+    <value>Clayiness</value>
+  </data>
+  <data name="gridBand9.ToolTip" xml:space="preserve">
+    <value>Clayiness</value>
+  </data>
+  <data name="gridBand10.Caption" xml:space="preserve">
+    <value>Water content</value>
+  </data>
+  <data name="gridBand10.ToolTip" xml:space="preserve">
+    <value>Water content</value>
+  </data>
+  <data name="gridBand4.Caption" xml:space="preserve">
+    <value>Porosity</value>
+  </data>
+  <data name="gridBand4.ToolTip" xml:space="preserve">
+    <value>Porosity</value>
+  </data>
+  <data name="gridBand5.Caption" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="gridBand5.ToolTip" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="gridBand6.Caption" xml:space="preserve">
+    <value>Lithology</value>
+  </data>
+  <data name="gridBand7.Caption" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="gridColumn5.Caption" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="gridColumn6.Caption" xml:space="preserve">
+    <value>perm</value>
+  </data>
+  <data name="gridColumn6.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="gridColumn7.Caption" xml:space="preserve">
+    <value>common</value>
+  </data>
+  <data name="gridColumn8.Caption" xml:space="preserve">
+    <value>GK</value>
+  </data>
+  <data name="gridColumn9.Caption" xml:space="preserve">
+    <value>TC</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>GK</value>
+  </data>
+  <data name="gridColumn11.Caption" xml:space="preserve">
+    <value>TCP</value>
+  </data>
+  <data name="gridColumn12.Caption" xml:space="preserve">
+    <value>PS</value>
+  </data>
+  <data name="gridColumn13.Caption" xml:space="preserve">
+    <value>resistance</value>
+  </data>
+  <data name="gridColumn14.Caption" xml:space="preserve">
+    <value>for BK</value>
+  </data>
+  <data name="gridColumn15.Caption" xml:space="preserve">
+    <value>for IK</value>
+  </data>
+  <data name="gridColumn16.Caption" xml:space="preserve">
+    <value>Seam type</value>
+  </data>
+  <data name="gridColumn17.Caption" xml:space="preserve">
+    <value>metering</value>
+  </data>
+  <data name="gridColumn18.Caption" xml:space="preserve">
+    <value>saturation</value>
+  </data>
+  <data name="gridColumn19.Caption" xml:space="preserve">
+    <value>Clayiness</value>
+  </data>
+  <data name="gridColumn20.Caption" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gridColumn21.Caption" xml:space="preserve">
+    <value>effective</value>
+  </data>
+  <data name="gridColumn22.Caption" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="gridColumn23.Caption" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="gridColumn24.Caption" xml:space="preserve">
+    <value>Lithology</value>
+  </data>
+  <data name="gridColumn25.Caption" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 313</value>
+  </data>
+  <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 163</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 185</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Wait please, loading data...</value>
+  </data>
+  <data name="pnlData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 343</value>
+  </data>
+  <data name="pnlLoading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 343</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 138</value>
+  </data>
+  <data name="gridBand19.Caption" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="gridBand19.ToolTip" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="gridBand33.Caption" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="gridBand20.Caption" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="gridBand34.Caption" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="gridBand21.Caption" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="gridBand35.Caption" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="gridBand22.Caption" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="gridBand36.Caption" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="gridBand37.Caption" xml:space="preserve">
+    <value>mD</value>
+  </data>
+  <data name="gridBand37.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="gridBand11.Caption" xml:space="preserve">
+    <value>relative</value>
+  </data>
+  <data name="gridBand23.Caption" xml:space="preserve">
+    <value>GK</value>
+  </data>
+  <data name="gridBand24.Caption" xml:space="preserve">
+    <value>TCP</value>
+  </data>
+  <data name="gridBand25.Caption" xml:space="preserve">
+    <value>PS</value>
+  </data>
+  <data name="gridBand14.Caption" xml:space="preserve">
+    <value>double differed</value>
+  </data>
+  <data name="gridBand26.Caption" xml:space="preserve">
+    <value>GK</value>
+  </data>
+  <data name="gridBand27.Caption" xml:space="preserve">
+    <value>TC</value>
+  </data>
+  <data name="gridBand38.Caption" xml:space="preserve">
+    <value>Ohmm</value>
+  </data>
+  <data name="gridBand28.Caption" xml:space="preserve">
+    <value>for BK</value>
+  </data>
+  <data name="gridBand39.Caption" xml:space="preserve">
+    <value>Ohmm</value>
+  </data>
+  <data name="gridBand29.Caption" xml:space="preserve">
+    <value>for IK</value>
+  </data>
+  <data name="gridBand40.Caption" xml:space="preserve">
+    <value>Ohmm</value>
+  </data>
+  <data name="gridBand30.Caption" xml:space="preserve">
+    <value>common</value>
+  </data>
+  <data name="gridBand31.Caption" xml:space="preserve">
+    <value>open</value>
+  </data>
+  <data name="gridBand32.Caption" xml:space="preserve">
+    <value>effective</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 343</value>
+  </data>
+  <data name="gridColumnInitialSaturation.Caption" xml:space="preserve">
+    <value>Initital_saturation_name</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+</root>
