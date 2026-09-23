@@ -1,4 +1,4 @@
-﻿using DevExpress.XtraGrid;
+using DevExpress.XtraGrid;
 
 namespace sibir.pxp.client.core.controls
 {
@@ -32,37 +32,37 @@ namespace sibir.pxp.client.core.controls
         {
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WellGisCtrl));
-            this.WellGisVersionEditCtrlRepItem1 = new sibir.pxp.client.core.controls.WellGisVersionEditCtrlRepItem();
             this.gisGridView = new DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView();
+            this.WellGisVersionEditCtrlRepItem1 = new sibir.pxp.client.core.controls.WellGisVersionEditCtrlRepItem();
             this.gridBand43 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnHasFiles = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn25 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnSourceName = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnLayerName = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand12 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand19 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand33 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnTop = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand20 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand34 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnBase = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand21 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand35 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn4 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnTopDsrd = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand22 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand36 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn5 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnBaseDsrd = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand13 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand37 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn6 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnPermeability = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand3 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand11 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand23 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn10 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnRelParG = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand24 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn11 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnRelParN = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand25 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumn12 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand49 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
@@ -70,49 +70,49 @@ namespace sibir.pxp.client.core.controls
             this.gridBand50 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnRelParAk = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand26 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn8 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnDif_par_g = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand27 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn9 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnDif_par_n = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand17 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand38 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn13 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnR = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand28 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand39 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn14 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnR_bk = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand29 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand40 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn15 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnR_ik = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand8 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand112 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn18 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnKNG = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand18 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand113 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn17 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnKg = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand9 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand41 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn19 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnClay = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand42 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn20 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnVikiz = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand4 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand30 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand114 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumn7 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand31 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand115 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn22 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnPorosity_o = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand32 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand116 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumn21 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBandInitialSaturation = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnInitialSaturation = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand5 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn23 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnSaturation_name = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand6 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn24 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnLithology_name = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand612 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn2412 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnCollector = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand613 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumn2413 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnPoreSpaceStructure = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand16 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand46 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnRelDz = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -195,10 +195,8 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnResultDate = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridBand139 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnPC = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand140 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumnAK = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand141 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridColumnVikiz = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridColumnAkk = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridBand145 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridBand79 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.gridColumnComments = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.gridColumn16 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -229,8 +227,8 @@ namespace sibir.pxp.client.core.controls
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WellGisVersionEditCtrlRepItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gisGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             this.hideContainerRight.SuspendLayout();
             this.dockPanel1.SuspendLayout();
             this.dockPanel1_Container.SuspendLayout();
@@ -367,8 +365,10 @@ namespace sibir.pxp.client.core.controls
             this.gridBand43,
             this.gridBand7,
             this.gridBand1,
-            this.gridBand12,
-            this.gridBand2,
+            this.gridBand19,
+            this.gridBand20,
+            this.gridBand21,
+            this.gridBand22,
             this.gridBand65,
             this.gridBand6,
             this.gridBand612,
@@ -394,42 +394,46 @@ namespace sibir.pxp.client.core.controls
             this.gridBand28,
             this.gridBand53,
             this.gridBand29,
+            this.gridBand42,
             this.gridBand52,
-                                    this.gridBand141,
+            this.gridBand11
             });
             this.gisGridView.Columns.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5,
+            this.gridColumnHasFiles,
+            this.gridColumnSourceName,
+            this.gridColumnLayerName,
+            this.gridColumnTop,
+            this.gridColumnBase,
+            this.gridColumnTopDsrd,
+            this.gridColumnBaseDsrd,
             this.gridColumnHeightEff,
-            this.gridColumn24,
-            this.gridColumn2412,
-            this.gridColumn2413,
+            this.gridColumnLithology_name,
+            this.gridColumnCollector,
+            this.gridColumnPoreSpaceStructure,
             this.gridColumnInitialSaturation,
-            this.gridColumn23,
-            this.gridColumn13,
+            this.gridColumnSaturation_name,
+            this.gridColumnR,
             this.gridColumnArs,
-            this.gridColumn8,
-            this.gridColumn9,
-            this.gridColumn22,
-            this.gridColumn6,
-            this.gridColumn17,
-            this.gridColumn18,
-            this.gridColumn19,
+            this.gridColumnDif_par_g,
+            this.gridColumnDif_par_n,
+            this.gridColumnPorosity_o,
+            this.gridColumnPermeability,
+            this.gridColumnKg,
+            this.gridColumnKNG,
+            this.gridColumnClay,
             this.gridColumnKvo,
             this.gridColumnResultDate,
             this.gridColumnComments,
-            this.gridColumn10,
-            this.gridColumn11,
+            this.gridColumnRelParG,
+            this.gridColumnRelParN,
             this.gridColumnPorosityNgk,
             this.gridColumnPC,
-            this.gridColumn14,
+            this.gridColumnR_bk,
             this.gridColumnRGz,
-            this.gridColumn15,
+            this.gridColumnR_ik,
+            this.gridColumnVikiz,
             this.gridColumnRBmk,
-                                    this.gridColumnAK,
+            this.gridColumnRelParAk
             });
             this.gisGridView.GridControl = this.gridControl1;
             this.gisGridView.Name = "gisGridView";
@@ -462,153 +466,116 @@ namespace sibir.pxp.client.core.controls
             // gridBand7
             // 
             resources.ApplyResources(this.gridBand7, "gridBand7");
-            this.gridBand7.Columns.Add(this.gridColumn25);
+            this.gridBand7.Columns.Add(this.gridColumnSourceName);
             // 
-            // gridColumn25
+            // gridColumnSourceName
             // 
-            this.gridColumn25.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn25.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn25.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn25.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn25, "gridColumn25");
-            this.gridColumn25.FieldName = "SOURCE_NAME";
-            this.gridColumn25.MinWidth = 75;
-            this.gridColumn25.Name = "gridColumn25";
-            this.gridColumn25.OptionsColumn.AllowMove = false;
+            this.gridColumnSourceName.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnSourceName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnSourceName.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnSourceName.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnSourceName, "gridColumnSourceName");
+            this.gridColumnSourceName.FieldName = "SOURCE_NAME";
+            this.gridColumnSourceName.MinWidth = 75;
+            this.gridColumnSourceName.Name = "gridColumnSourceName";
+            this.gridColumnSourceName.OptionsColumn.AllowMove = false;
             // 
             // gridBand1
             // 
             resources.ApplyResources(this.gridBand1, "gridBand1");
-            this.gridBand1.Columns.Add(this.gridColumn1);
+            this.gridBand1.Columns.Add(this.gridColumnLayerName);
             this.gridBand1.OptionsBand.AllowMove = false;
             // 
-            // gridColumn1
+            // gridColumnLayerName
             // 
-            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn1, "gridColumn1");
-            this.gridColumn1.FieldName = "LAYER_NAME";
-            this.gridColumn1.MinWidth = 57;
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand12
-            // 
-            resources.ApplyResources(this.gridBand12, "gridBand12");
-            this.gridBand12.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand19,
-            this.gridBand20});
-            this.gridBand12.OptionsBand.AllowMove = false;
-            // 
-            // gridBand19
-            // 
-            resources.ApplyResources(this.gridBand19, "gridBand19");
-            this.gridBand19.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand33});
-            this.gridBand19.OptionsBand.AllowMove = false;
-            // 
-            // gridBand33
-            // 
-            resources.ApplyResources(this.gridBand33, "gridBand33");
-            this.gridBand33.Columns.Add(this.gridColumn2);
-            this.gridBand33.OptionsBand.AllowMove = false;
-            // 
-            // gridColumn2
-            // 
-            this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn2, "gridColumn2");
-            this.gridColumn2.FieldName = "TOP";
-            this.gridColumn2.MinWidth = 60;
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand20
-            // 
-            resources.ApplyResources(this.gridBand20, "gridBand20");
-            this.gridBand20.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand34});
-            this.gridBand20.OptionsBand.AllowMove = false;
+            this.gridColumnLayerName.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnLayerName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnLayerName.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnLayerName.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnLayerName, "gridColumnLayerName");
+            this.gridColumnLayerName.FieldName = "LAYER_NAME";
+            this.gridColumnLayerName.MinWidth = 57;
+            this.gridColumnLayerName.Name = "gridColumnLayerName";
+            this.gridColumnLayerName.OptionsColumn.AllowMove = false;
             // 
             // gridBand34
             // 
             resources.ApplyResources(this.gridBand34, "gridBand34");
-            this.gridBand34.Columns.Add(this.gridColumn3);
+            this.gridBand34.Columns.Add(this.gridColumnRIkm);
             this.gridBand34.OptionsBand.AllowMove = false;
             // 
-            // gridColumn3
+            // gridBand19
             // 
-            this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn3.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn3, "gridColumn3");
-            this.gridColumn3.FieldName = "BASE";
-            this.gridColumn3.MinWidth = 70;
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand19, "gridBand19");
+            this.gridBand19.Columns.Add(this.gridColumnTop);
+            this.gridBand19.OptionsBand.AllowMove = false;
             // 
-            // gridBand2
+            // gridColumnTop
             // 
-            resources.ApplyResources(this.gridBand2, "gridBand2");
-            this.gridBand2.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand21,
-            this.gridBand22});
+            this.gridColumnTop.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnTop.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnTop.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnTop.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnTop, "gridColumnTop");
+            this.gridColumnTop.FieldName = "TOP";
+            this.gridColumnTop.MinWidth = 60;
+            this.gridColumnTop.Name = "gridColumnTop";
+            this.gridColumnTop.OptionsColumn.AllowMove = false;
+            // 
+            // gridBand20
+            // 
+            resources.ApplyResources(this.gridBand20, "gridBand20");
+            this.gridBand20.Columns.Add(this.gridColumnBase);
+            this.gridBand20.OptionsBand.AllowMove = false;
+            // 
+            // gridColumnBase
+            // 
+            this.gridColumnBase.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnBase.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnBase.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnBase.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnBase, "gridColumnBase");
+            this.gridColumnBase.FieldName = "BASE";
+            this.gridColumnBase.MinWidth = 70;
+            this.gridColumnBase.Name = "gridColumnBase";
+            this.gridColumnBase.OptionsColumn.AllowMove = false;
             this.gridBand2.OptionsBand.AllowMove = false;
             // 
             // gridBand21
             // 
             resources.ApplyResources(this.gridBand21, "gridBand21");
-            this.gridBand21.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand35});
+            this.gridBand21.Columns.Add(this.gridColumnTopDsrd);
             this.gridBand21.OptionsBand.AllowMove = false;
-            // 
-            // gridBand35
-            // 
-            resources.ApplyResources(this.gridBand35, "gridBand35");
-            this.gridBand35.Columns.Add(this.gridColumn4);
-            this.gridBand35.OptionsBand.AllowMove = false;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn4.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn4.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn4, "gridColumn4");
-            this.gridColumn4.FieldName = "TOP_DSRD";
-            this.gridColumn4.MinWidth = 60;
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.OptionsColumn.AllowMove = false;
             // 
             // gridBand22
             // 
             resources.ApplyResources(this.gridBand22, "gridBand22");
-            this.gridBand22.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand36});
+            this.gridBand22.Columns.Add(this.gridColumnBaseDsrd);
             this.gridBand22.OptionsBand.AllowMove = false;
             // 
-            // gridBand36
+            // gridColumnTopDsrd
             // 
-            resources.ApplyResources(this.gridBand36, "gridBand36");
-            this.gridBand36.Columns.Add(this.gridColumn5);
-            this.gridBand36.OptionsBand.AllowMove = false;
+            this.gridColumnTopDsrd.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnTopDsrd.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnTopDsrd.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnTopDsrd.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnTopDsrd, "gridColumnTopDsrd");
+            this.gridColumnTopDsrd.FieldName = "TOP_DSRD";
+            this.gridColumnTopDsrd.MinWidth = 60;
+            this.gridColumnTopDsrd.Name = "gridColumnTopDsrd";
+            this.gridColumnTopDsrd.OptionsColumn.AllowMove = false;
             // 
-            // gridColumn5
+            // gridColumnBaseDsrd
             // 
-            this.gridColumn5.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn5.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn5.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn5, "gridColumn5");
-            this.gridColumn5.FieldName = "BASE_DSRD";
-            this.gridColumn5.MinWidth = 70;
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.OptionsColumn.AllowMove = false;
+            this.gridColumnBaseDsrd.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnBaseDsrd.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnBaseDsrd.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnBaseDsrd.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnBaseDsrd, "gridColumnBaseDsrd");
+            this.gridColumnBaseDsrd.FieldName = "BASE_DSRD";
+            this.gridColumnBaseDsrd.MinWidth = 70;
+            this.gridColumnBaseDsrd.Name = "gridColumnBaseDsrd";
+            this.gridColumnBaseDsrd.OptionsColumn.AllowMove = false;
             // 
             // gridBand13
             // 
@@ -620,90 +587,79 @@ namespace sibir.pxp.client.core.controls
             // gridBand37
             // 
             resources.ApplyResources(this.gridBand37, "gridBand37");
-            this.gridBand37.Columns.Add(this.gridColumn6);
+            this.gridBand37.Columns.Add(this.gridColumnPermeability);
             this.gridBand37.OptionsBand.AllowMove = false;
             // 
-            // gridColumn6
+            // gridColumnPermeability
             // 
-            this.gridColumn6.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn6.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn6, "gridColumn6");
-            this.gridColumn6.FieldName = "PERMEABILITY";
-            this.gridColumn6.MinWidth = 70;
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand3
-            // 
-            resources.ApplyResources(this.gridBand3, "gridBand3");
-            this.gridBand3.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand11});
-            this.gridBand3.OptionsBand.AllowMove = false;
+            this.gridColumnPermeability.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnPermeability.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnPermeability.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnPermeability.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnPermeability, "gridColumnPermeability");
+            this.gridColumnPermeability.FieldName = "PERMEABILITY";
+            this.gridColumnPermeability.MinWidth = 70;
+            this.gridColumnPermeability.Name = "gridColumnPermeability";
+            this.gridColumnPermeability.OptionsColumn.AllowMove = false;
             // 
             // gridBand11
             // 
             resources.ApplyResources(this.gridBand11, "gridBand11");
             this.gridBand11.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand25,
-            this.gridBand49,
             this.gridBand50});
             this.gridBand11.OptionsBand.AllowMove = false;
             // 
             // gridBand23
             // 
             resources.ApplyResources(this.gridBand23, "gridBand23");
-            this.gridBand23.Columns.Add(this.gridColumn10);
+            this.gridBand23.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand33
+            });
             this.gridBand23.OptionsBand.AllowMove = false;
             // 
-            // gridColumn10
+            // gridBand33
             // 
-            this.gridColumn10.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn10.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn10, "gridColumn10");
-            this.gridColumn10.FieldName = "REL_PAR_G";
-            this.gridColumn10.MinWidth = 41;
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand33, "gridBand33");
+            this.gridBand33.Columns.Add(this.gridColumnRelParG);
+            this.gridBand33.OptionsBand.AllowMove = false;
             // 
+            // gridColumnRelParG
+            // 
+            this.gridColumnRelParG.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnRelParG.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnRelParG.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnRelParG.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnRelParG, "gridColumnRelParG");
+            this.gridColumnRelParG.FieldName = "REL_PAR_G";
+            this.gridColumnRelParG.MinWidth = 41;
+            this.gridColumnRelParG.Name = "gridColumnRelParG";
+            this.gridColumnRelParG.OptionsColumn.AllowMove = false;
+            //
             // gridBand24
             // 
             resources.ApplyResources(this.gridBand24, "gridBand24");
-            this.gridBand24.Columns.Add(this.gridColumn11);
+            this.gridBand24.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand128
+            });
             this.gridBand24.OptionsBand.AllowMove = false;
             // 
-            // gridColumn11
+            // gridBand128
             // 
-            this.gridColumn11.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn11.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn11.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn11, "gridColumn11");
-            this.gridColumn11.FieldName = "REL_PAR_N";
-            this.gridColumn11.MinWidth = 41;
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand128, "gridBand128");
+            this.gridBand128.Columns.Add(this.gridColumnRelParN);
+            this.gridBand128.OptionsBand.AllowMove = false;
             // 
-            // gridBand25
+            // gridColumnRelParN
             // 
-            resources.ApplyResources(this.gridBand25, "gridBand25");
-            this.gridBand25.Columns.Add(this.gridColumn12);
-            this.gridBand25.OptionsBand.AllowMove = false;
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn12.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn12.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn12, "gridColumn12");
-            this.gridColumn12.FieldName = "REL_PAR_SP";
-            this.gridColumn12.MinWidth = 41;
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.OptionsColumn.AllowMove = false;
+            this.gridColumnRelParN.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnRelParN.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnRelParN.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnRelParN.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnRelParN, "gridColumnRelParN");
+            this.gridColumnRelParN.FieldName = "REL_PAR_N";
+            this.gridColumnRelParN.MinWidth = 41;
+            this.gridColumnRelParN.Name = "gridColumnRelParN";
+            this.gridColumnRelParN.OptionsColumn.AllowMove = false;
             // 
             // gridBand49
             // 
@@ -733,45 +689,55 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnRelParAk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
             this.gridColumnRelParAk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             resources.ApplyResources(this.gridColumnRelParAk, "gridColumnRelParAk");
-            this.gridColumnRelParAk.FieldName = "REL_PAR_AK";
+            this.gridColumnRelParAk.FieldName = "AC_DT";
             this.gridColumnRelParAk.Name = "gridColumnRelParAk";
             this.gridColumnRelParAk.OptionsColumn.AllowMove = false;
             // 
             // gridBand26
             // 
             resources.ApplyResources(this.gridBand26, "gridBand26");
-            this.gridBand26.Columns.Add(this.gridColumn8);
-            this.gridBand26.OptionsBand.AllowMove = false;
+            this.gridBand26.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand125});
             // 
-            // gridColumn8
+            // gridBand125
             // 
-            this.gridColumn8.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn8.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn8, "gridColumn8");
-            this.gridColumn8.FieldName = "DIF_PAR_G";
-            this.gridColumn8.MinWidth = 65;
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand125, "gridBand125");
+            this.gridBand125.Columns.Add(this.gridColumnDif_par_g);
+            // 
+            // gridColumnDif_par_g
+            // 
+            this.gridColumnDif_par_g.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnDif_par_g.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnDif_par_g.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnDif_par_g.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnDif_par_g, "gridColumnDif_par_g");
+            this.gridColumnDif_par_g.FieldName = "DIF_PAR_G";
+            this.gridColumnDif_par_g.MinWidth = 65;
+            this.gridColumnDif_par_g.Name = "gridColumnDif_par_g";
+            this.gridColumnDif_par_g.OptionsColumn.AllowMove = false;
             // 
             // gridBand27
             // 
             resources.ApplyResources(this.gridBand27, "gridBand27");
-            this.gridBand27.Columns.Add(this.gridColumn9);
-            this.gridBand27.OptionsBand.AllowMove = false;
+            this.gridBand27.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand134});
             // 
-            // gridColumn9
+            // gridBand134
             // 
-            this.gridColumn9.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn9, "gridColumn9");
-            this.gridColumn9.FieldName = "DIF_PAR_N";
-            this.gridColumn9.MinWidth = 65;
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand134, "gridBand134");
+            this.gridBand134.Columns.Add(this.gridColumnDif_par_n);
+            // 
+            // gridColumnDif_par_n
+            // 
+            this.gridColumnDif_par_n.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnDif_par_n.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnDif_par_n.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnDif_par_n.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnDif_par_n, "gridColumnDif_par_n");
+            this.gridColumnDif_par_n.FieldName = "DIF_PAR_N";
+            this.gridColumnDif_par_n.MinWidth = 65;
+            this.gridColumnDif_par_n.Name = "gridColumnDif_par_n";
+            this.gridColumnDif_par_n.OptionsColumn.AllowMove = false;
             // 
             // gridBand17
             // 
@@ -783,20 +749,20 @@ namespace sibir.pxp.client.core.controls
             // gridBand38
             // 
             resources.ApplyResources(this.gridBand38, "gridBand38");
-            this.gridBand38.Columns.Add(this.gridColumn13);
+            this.gridBand38.Columns.Add(this.gridColumnR);
             this.gridBand38.OptionsBand.AllowMove = false;
             // 
-            // gridColumn13
+            // gridColumnR
             // 
-            this.gridColumn13.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn13.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn13.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn13, "gridColumn13");
-            this.gridColumn13.FieldName = "R";
-            this.gridColumn13.MinWidth = 70;
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.OptionsColumn.AllowMove = false;
+            this.gridColumnR.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnR.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnR.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnR.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnR, "gridColumnR");
+            this.gridColumnR.FieldName = "R";
+            this.gridColumnR.MinWidth = 70;
+            this.gridColumnR.Name = "gridColumnR";
+            this.gridColumnR.OptionsColumn.AllowMove = false;
             // 
             // gridBand28
             // 
@@ -808,20 +774,20 @@ namespace sibir.pxp.client.core.controls
             // gridBand39
             // 
             resources.ApplyResources(this.gridBand39, "gridBand39");
-            this.gridBand39.Columns.Add(this.gridColumn14);
+            this.gridBand39.Columns.Add(this.gridColumnR_bk);
             this.gridBand39.OptionsBand.AllowMove = false;
             // 
-            // gridColumn14
+            // gridColumnR_bk
             // 
-            this.gridColumn14.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn14.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn14.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn14, "gridColumn14");
-            this.gridColumn14.FieldName = "R_BK";
-            this.gridColumn14.MinWidth = 75;
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.OptionsColumn.AllowMove = false;
+            this.gridColumnR_bk.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnR_bk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnR_bk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnR_bk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnR_bk, "gridColumnR_bk");
+            this.gridColumnR_bk.FieldName = "R_BK";
+            this.gridColumnR_bk.MinWidth = 75;
+            this.gridColumnR_bk.Name = "gridColumnR_bk";
+            this.gridColumnR_bk.OptionsColumn.AllowMove = false;
             // 
             // gridBand29
             // 
@@ -833,20 +799,20 @@ namespace sibir.pxp.client.core.controls
             // gridBand40
             // 
             resources.ApplyResources(this.gridBand40, "gridBand40");
-            this.gridBand40.Columns.Add(this.gridColumn15);
+            this.gridBand40.Columns.Add(this.gridColumnR_ik);
             this.gridBand40.OptionsBand.AllowMove = false;
             // 
-            // gridColumn15
+            // gridColumnR_ik
             // 
-            this.gridColumn15.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn15.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn15.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn15, "gridColumn15");
-            this.gridColumn15.FieldName = "R_IK";
-            this.gridColumn15.MinWidth = 75;
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.OptionsColumn.AllowMove = false;
+            this.gridColumnR_ik.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnR_ik.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnR_ik.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnR_ik.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnR_ik, "gridColumnR_ik");
+            this.gridColumnR_ik.FieldName = "R_IK";
+            this.gridColumnR_ik.MinWidth = 75;
+            this.gridColumnR_ik.Name = "gridColumnR_ik";
+            this.gridColumnR_ik.OptionsColumn.AllowMove = false;
             // 
             // gridBand8
             // 
@@ -858,19 +824,19 @@ namespace sibir.pxp.client.core.controls
             // gridBand112
             // 
             resources.ApplyResources(this.gridBand112, "gridBand112");
-            this.gridBand112.Columns.Add(this.gridColumn18);
+            this.gridBand112.Columns.Add(this.gridColumnKNG);
             // 
-            // gridColumn18
+            // gridColumnKNG
             // 
-            this.gridColumn18.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn18.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn18.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn18, "gridColumn18");
-            this.gridColumn18.FieldName = "KNG";
-            this.gridColumn18.MinWidth = 74;
-            this.gridColumn18.Name = "gridColumn18";
-            this.gridColumn18.OptionsColumn.AllowMove = false;
+            this.gridColumnKNG.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnKNG.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnKNG.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnKNG.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnKNG, "gridColumnKNG");
+            this.gridColumnKNG.FieldName = "KNG";
+            this.gridColumnKNG.MinWidth = 74;
+            this.gridColumnKNG.Name = "gridColumnKNG";
+            this.gridColumnKNG.OptionsColumn.AllowMove = false;
             // 
             // gridBand18
             // 
@@ -882,19 +848,19 @@ namespace sibir.pxp.client.core.controls
             // gridBand113
             // 
             resources.ApplyResources(this.gridBand113, "gridBand113");
-            this.gridBand113.Columns.Add(this.gridColumn17);
+            this.gridBand113.Columns.Add(this.gridColumnKg);
             // 
-            // gridColumn17
+            // gridColumnKg
             // 
-            this.gridColumn17.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn17.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn17, "gridColumn17");
-            this.gridColumn17.FieldName = "KG";
-            this.gridColumn17.MinWidth = 108;
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.OptionsColumn.AllowMove = false;
+            this.gridColumnKg.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnKg.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnKg.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnKg.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnKg, "gridColumnKg");
+            this.gridColumnKg.FieldName = "KG";
+            this.gridColumnKg.MinWidth = 108;
+            this.gridColumnKg.Name = "gridColumnKg";
+            this.gridColumnKg.OptionsColumn.AllowMove = false;
             // 
             // gridBand9
             // 
@@ -906,52 +872,52 @@ namespace sibir.pxp.client.core.controls
             // gridBand41
             // 
             resources.ApplyResources(this.gridBand41, "gridBand41");
-            this.gridBand41.Columns.Add(this.gridColumn19);
+            this.gridBand41.Columns.Add(this.gridColumnClay);
             this.gridBand41.OptionsBand.AllowMove = false;
             // 
-            // gridColumn19
+            // gridColumnClay
             // 
-            this.gridColumn19.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn19.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn19.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn19, "gridColumn19");
-            this.gridColumn19.FieldName = "CLAY";
-            this.gridColumn19.MinWidth = 85;
-            this.gridColumn19.Name = "gridColumn19";
-            this.gridColumn19.OptionsColumn.AllowMove = false;
+            this.gridColumnClay.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnClay.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnClay.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnClay.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnClay, "gridColumnClay");
+            this.gridColumnClay.FieldName = "CLAY";
+            this.gridColumnClay.MinWidth = 85;
+            this.gridColumnClay.Name = "gridColumnClay";
+            this.gridColumnClay.OptionsColumn.AllowMove = false;
             // 
             // gridBand42
             // 
             resources.ApplyResources(this.gridBand42, "gridBand42");
-            this.gridBand42.Columns.Add(this.gridColumn20);
+            this.gridBand42.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand129});
             this.gridBand42.OptionsBand.AllowMove = false;
             // 
-            // gridColumn20
+            // gridBand41
             // 
-            this.gridColumn20.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn20.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn20.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn20, "gridColumn20");
-            this.gridColumn20.FieldName = "H";
-            this.gridColumn20.MinWidth = 51;
-            this.gridColumn20.Name = "gridColumn20";
-            this.gridColumn20.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridBand129, "gridBand129");
+            this.gridBand129.Columns.Add(this.gridColumnVikiz);
+            this.gridBand129.OptionsBand.AllowMove = false;
+            // 
+            // gridColumnVikiz
+            // 
+            this.gridColumnVikiz.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnVikiz.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnVikiz.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnVikiz.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnVikiz, "gridColumnVikiz");
+            this.gridColumnVikiz.FieldName = "VIKIZ";
+            this.gridColumnVikiz.MinWidth = 51;
+            this.gridColumnVikiz.Name = "gridColumnVikiz";
+            this.gridColumnVikiz.OptionsColumn.AllowMove = false;
             // 
             // gridBand4
             // 
             resources.ApplyResources(this.gridBand4, "gridBand4");
             this.gridBand4.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand31});
+            this.gridBand115});
             this.gridBand4.OptionsBand.AllowMove = false;
-            // 
-            // gridBand30
-            // 
-            resources.ApplyResources(this.gridBand30, "gridBand30");
-            this.gridBand30.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand114});
-            this.gridBand30.OptionsBand.AllowMove = false;
             // 
             // gridBand114
             // 
@@ -970,29 +936,22 @@ namespace sibir.pxp.client.core.controls
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.OptionsColumn.AllowMove = false;
             // 
-            // gridBand31
-            // 
-            resources.ApplyResources(this.gridBand31, "gridBand31");
-            this.gridBand31.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand115});
-            this.gridBand31.OptionsBand.AllowMove = false;
-            // 
             // gridBand115
             // 
             resources.ApplyResources(this.gridBand115, "gridBand115");
-            this.gridBand115.Columns.Add(this.gridColumn22);
+            this.gridBand115.Columns.Add(this.gridColumnPorosity_o);
             // 
-            // gridColumn22
+            // gridColumnPorosity_o
             // 
-            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn22.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn22, "gridColumn22");
-            this.gridColumn22.FieldName = "POROSITY_O";
-            this.gridColumn22.MinWidth = 75;
-            this.gridColumn22.Name = "gridColumn22";
-            this.gridColumn22.OptionsColumn.AllowMove = false;
+            this.gridColumnPorosity_o.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnPorosity_o.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnPorosity_o.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnPorosity_o.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnPorosity_o, "gridColumnPorosity_o");
+            this.gridColumnPorosity_o.FieldName = "POROSITY_O";
+            this.gridColumnPorosity_o.MinWidth = 75;
+            this.gridColumnPorosity_o.Name = "gridColumnPorosity_o";
+            this.gridColumnPorosity_o.OptionsColumn.AllowMove = false;
             // 
             // gridBand32
             // 
@@ -1038,68 +997,70 @@ namespace sibir.pxp.client.core.controls
             // gridBand5
             // 
             resources.ApplyResources(this.gridBand5, "gridBand5");
-            this.gridBand5.Columns.Add(this.gridColumn23);
+            this.gridBand5.Columns.Add(this.gridColumnSaturation_name);
             // 
-            // gridColumn23
+            // gridColumnSaturation_name
             // 
-            this.gridColumn23.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn23.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn23, "gridColumn23");
-            this.gridColumn23.FieldName = "SATURATION_NAME";
-            this.gridColumn23.MinWidth = 75;
-            this.gridColumn23.Name = "gridColumn23";
-            this.gridColumn23.OptionsColumn.AllowMove = false;
+            this.gridColumnSaturation_name.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnSaturation_name.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnSaturation_name.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnSaturation_name.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnSaturation_name, "gridColumnSaturation_name");
+            this.gridColumnSaturation_name.FieldName = "SATURATION_NAME";
+            this.gridColumnSaturation_name.MinWidth = 75;
+            this.gridColumnSaturation_name.Name = "gridColumnSaturation_name";
+            this.gridColumnSaturation_name.OptionsColumn.AllowMove = false;
             // 
             // gridBand6
             // 
             resources.ApplyResources(this.gridBand6, "gridBand6");
-            this.gridBand6.Columns.Add(this.gridColumn24);
+            this.gridBand6.Columns.Add(this.gridColumnLithology_name);
             // 
-            // gridColumn24
+            // gridColumnLithology_name
             // 
-            this.gridColumn24.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn24.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn24.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn24.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumn24, "gridColumn24");
-            this.gridColumn24.FieldName = "LITHOLOGY_NAME";
-            this.gridColumn24.MinWidth = 75;
-            this.gridColumn24.Name = "gridColumn24";
-            this.gridColumn24.OptionsColumn.AllowMove = false;
+            this.gridColumnLithology_name.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnLithology_name.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnLithology_name.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnLithology_name.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnLithology_name, "gridColumnLithology_name");
+            this.gridColumnLithology_name.FieldName = "LITHOLOGY_NAME";
+            this.gridColumnLithology_name.MinWidth = 75;
+            this.gridColumnLithology_name.Name = "gridColumnLithology_name";
+            this.gridColumnLithology_name.OptionsColumn.AllowMove = false;
             // 
             // gridBand612
             // 
             resources.ApplyResources(this.gridBand612, "gridBand612");
-            this.gridBand612.Columns.Add(this.gridColumn2412);
+            this.gridBand612.Columns.Add(this.gridColumnCollector);
             // 
-            // gridColumn2412
+            // gridColumnCollector
             // 
-            this.gridColumn2412.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn2412.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2412.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn2412.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn2412.FieldName = "LITHOLOGY_NAME";
-            this.gridColumn2412.MinWidth = 75;
-            this.gridColumn2412.Name = "gridColumn2412";
-            this.gridColumn2412.OptionsColumn.AllowMove = false;
+            this.gridColumnCollector.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnCollector.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnCollector.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnCollector.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumnCollector.FieldName = "COLLECTOR";
+            this.gridColumnCollector.MinWidth = 75;
+            this.gridColumnCollector.Name = "gridColumnCollector";
+            this.gridColumnCollector.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridColumnCollector, "gridColumnCollector");
             // 
             // gridBand613
             // 
             resources.ApplyResources(this.gridBand613, "gridBand613");
-            this.gridBand613.Columns.Add(this.gridColumn2413);
+            this.gridBand613.Columns.Add(this.gridColumnPoreSpaceStructure);
             // 
-            // gridColumn2413
+            // gridColumnPoreSpaceStructure
             // 
-            this.gridColumn2413.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn2413.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2413.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumn2413.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn2413.FieldName = "LITHOLOGY_NAME";
-            this.gridColumn2413.MinWidth = 75;
-            this.gridColumn2413.Name = "gridColumn2413";
-            this.gridColumn2413.OptionsColumn.AllowMove = false;
+            this.gridColumnPoreSpaceStructure.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnPoreSpaceStructure.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnPoreSpaceStructure.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnPoreSpaceStructure.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumnPoreSpaceStructure.FieldName = "PORE_SPACE_STRUCTURE";
+            this.gridColumnPoreSpaceStructure.MinWidth = 75;
+            this.gridColumnPoreSpaceStructure.Name = "gridColumnPoreSpaceStructure";
+            this.gridColumnPoreSpaceStructure.OptionsColumn.AllowMove = false;
+            resources.ApplyResources(this.gridColumnPoreSpaceStructure, "gridColumnPoreSpaceStructure");
             // 
             // gridBand46
             // 
@@ -1138,19 +1099,6 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnKvo.FieldName = "KVO";
             this.gridColumnKvo.Name = "gridColumnKvo";
             this.gridColumnKvo.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand48
-            // 
-            resources.ApplyResources(this.gridBand48, "gridBand48");
-            this.gridBand48.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand82,
-            this.gridBand83,
-            this.gridBand84,
-            this.gridBand85,
-            this.gridBand86,
-            this.gridBand88,
-            this.gridBand89,
-            this.gridBand90});
             // 
             // gridBand82
             // 
@@ -1306,17 +1254,6 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnPorosityNnkt.Name = "gridColumnPorosityNnkt";
             this.gridColumnPorosityNnkt.OptionsColumn.AllowMove = false;
             // 
-            // gridBand89
-            // 
-            resources.ApplyResources(this.gridBand89, "gridBand89");
-            this.gridBand89.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand125});
-            // 
-            // gridBand125
-            // 
-            resources.ApplyResources(this.gridBand125, "gridBand125");
-            this.gridBand125.Columns.Add(this.gridColumnPorosityKv);
-            // 
             // gridColumnPorosityKv
             // 
             this.gridColumnPorosityKv.AppearanceHeader.Options.UseTextOptions = true;
@@ -1394,119 +1331,6 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnRGz.Name = "gridColumnRGz";
             this.gridColumnRGz.OptionsColumn.AllowMove = false;
             // 
-            // gridBand59
-            // 
-            resources.ApplyResources(this.gridBand59, "gridBand59");
-            this.gridBand59.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand97,
-            this.gridBand98,
-            this.gridBand101,
-            this.gridBand102,
-            this.gridBand103,
-            this.gridBand104,
-            this.gridBand96});
-            // 
-            // gridBand97
-            // 
-            resources.ApplyResources(this.gridBand97, "gridBand97");
-            this.gridBand97.Columns.Add(this.gridColumnRAk);
-            // 
-            // gridColumnRAk
-            // 
-            this.gridColumnRAk.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRAk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRAk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRAk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRAk, "gridColumnRAk");
-            this.gridColumnRAk.FieldName = "R_AK";
-            this.gridColumnRAk.Name = "gridColumnRAk";
-            this.gridColumnRAk.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand98
-            // 
-            resources.ApplyResources(this.gridBand98, "gridBand98");
-            this.gridBand98.Columns.Add(this.gridColumnRNkt);
-            // 
-            // gridColumnRNkt
-            // 
-            this.gridColumnRNkt.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRNkt.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRNkt.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRNkt.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRNkt, "gridColumnRNkt");
-            this.gridColumnRNkt.FieldName = "R_NKT";
-            this.gridColumnRNkt.Name = "gridColumnRNkt";
-            this.gridColumnRNkt.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand101
-            // 
-            resources.ApplyResources(this.gridBand101, "gridBand101");
-            this.gridBand101.Columns.Add(this.gridColumnRNgk);
-            // 
-            // gridColumnRNgk
-            // 
-            this.gridColumnRNgk.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRNgk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRNgk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRNgk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRNgk, "gridColumnRNgk");
-            this.gridColumnRNgk.FieldName = "R_NGK";
-            this.gridColumnRNgk.Name = "gridColumnRNgk";
-            this.gridColumnRNgk.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand102
-            // 
-            resources.ApplyResources(this.gridBand102, "gridBand102");
-            this.gridBand102.Columns.Add(this.gridColumnRGk);
-            // 
-            // gridColumnRGk
-            // 
-            this.gridColumnRGk.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRGk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRGk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRGk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRGk, "gridColumnRGk");
-            this.gridColumnRGk.FieldName = "R_GK";
-            this.gridColumnRGk.Name = "gridColumnRGk";
-            this.gridColumnRGk.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand103
-            // 
-            resources.ApplyResources(this.gridBand103, "gridBand103");
-            this.gridBand103.Columns.Add(this.gridColumnRGgkp);
-            // 
-            // gridColumnRGgkp
-            // 
-            this.gridColumnRGgkp.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRGgkp.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRGgkp.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRGgkp.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRGgkp, "gridColumnRGgkp");
-            this.gridColumnRGgkp.FieldName = "R_GGKP";
-            this.gridColumnRGgkp.Name = "gridColumnRGgkp";
-            this.gridColumnRGgkp.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand104
-            // 
-            resources.ApplyResources(this.gridBand104, "gridBand104");
-            this.gridBand104.Columns.Add(this.gridColumnRNnk);
-            // 
-            // gridColumnRNnk
-            // 
-            this.gridColumnRNnk.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnRNnk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnRNnk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnRNnk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnRNnk, "gridColumnRNnk");
-            this.gridColumnRNnk.FieldName = "R_NNK";
-            this.gridColumnRNnk.Name = "gridColumnRNnk";
-            this.gridColumnRNnk.OptionsColumn.AllowMove = false;
-            // 
-            // gridBand96
-            // 
-            resources.ApplyResources(this.gridBand96, "gridBand96");
-            this.gridBand96.Columns.Add(this.gridColumnRIkm);
-            // 
             // gridColumnRIkm
             // 
             this.gridColumnRIkm.AppearanceHeader.Options.UseTextOptions = true;
@@ -1543,14 +1367,8 @@ namespace sibir.pxp.client.core.controls
             // gridBand65
             // 
             resources.ApplyResources(this.gridBand65, "gridBand65");
-            this.gridBand65.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
-            this.gridBand129});
-            // 
-            // gridBand129
-            // 
-            resources.ApplyResources(this.gridBand129, "gridBand129");
-            this.gridBand129.Columns.Add(this.gridColumnHeightEff);
-            // 
+            this.gridBand65.Columns.Add(this.gridColumnHeightEff);
+            //
             // gridColumnHeightEff
             // 
             this.gridColumnHeightEff.AppearanceHeader.Options.UseTextOptions = true;
@@ -1560,12 +1378,8 @@ namespace sibir.pxp.client.core.controls
             resources.ApplyResources(this.gridColumnHeightEff, "gridColumnHeightEff");
             this.gridColumnHeightEff.FieldName = "HEIGHT_EFF";
             this.gridColumnHeightEff.Name = "gridColumnHeightEff";
-            this.gridColumnHeightEff.OptionsColumn.AllowMove = false; 
-            // 
-            // gridBand57
-            // 
-            resources.ApplyResources(this.gridBand57, "gridBand57");
-            this.gridBand57.Columns.Add(this.gridColumnInterpretationType);
+            this.gridColumnHeightEff.OptionsColumn.AllowMove = false;
+
             // 
             // gridColumnInterpretationType
             // 
@@ -1599,8 +1413,13 @@ namespace sibir.pxp.client.core.controls
             // gridBand139
             // 
             resources.ApplyResources(this.gridBand139, "gridBand139");
-            this.gridBand139.Columns.Add(this.gridColumnPC);
-            gridBand139.Caption = "ПС";
+            this.gridBand139.Children.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand36});
+            // 
+            // gridBand36
+            // 
+            resources.ApplyResources(this.gridBand36, "gridBand36");
+            this.gridBand36.Columns.Add(this.gridColumnPC);
             // 
             // gridColumnPC 
             // 
@@ -1609,41 +1428,20 @@ namespace sibir.pxp.client.core.controls
             this.gridColumnPC.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
             this.gridColumnPC.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             resources.ApplyResources(this.gridColumnPC, "gridColumnPC");
-            this.gridColumnPC.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            //this.gridColumnPC.FieldName = "RESULT_DATE";
+            this.gridColumnPC.FieldName = "SPONTANEOUS_POLARIZATION";
             this.gridColumnPC.Name = "gridColumnPC";
-            // 
-            // gridBand140
-            // 
-            resources.ApplyResources(this.gridBand140, "gridBand140");
-            this.gridBand140.Columns.Add(this.gridColumnVikiz);
-            gridBand140.Caption = "ВИКИЗ";
-            // 
-            // gridColumnVikiz 
-            // 
-            this.gridColumnVikiz.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnVikiz.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnVikiz.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnVikiz.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnVikiz, "gridColumnVikiz");
-            //this.gridColumnVikiz.FieldName = "RESULT_DATE";
-            this.gridColumnVikiz.Name = "gridColumnVikiz";
-            // 
-            // gridBand141
-            // ц
-            this.gridBand141.Columns.Add(this.gridColumnAK);
-            gridBand141.Caption = "АК";
+            this.gridColumnPC.OptionsColumn.AllowMove = false;
             // 
             // gridColumnAk 
             // 
-            this.gridColumnAK.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumnAK.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumnAK.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
-            this.gridColumnAK.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            resources.ApplyResources(this.gridColumnAK, "gridColumnAk");
-            this.gridColumnAK.FieldName = "HEIGHT_EFF";
-            this.gridColumnAK.Name = "gridColumnAk";
-            this.gridColumnAK.OptionsColumn.AllowMove = false;
+            this.gridColumnAkk.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumnAkk.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumnAkk.AppearanceHeader.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
+            this.gridColumnAkk.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            resources.ApplyResources(this.gridColumnAkk, "gridColumnAk");
+            this.gridColumnAkk.FieldName = "HEIGHT_EFF";
+            this.gridColumnAkk.Name = "gridColumnAk";
+            this.gridColumnAkk.OptionsColumn.AllowMove = false;
             // 
             // gridBand79
             // 
@@ -1859,64 +1657,64 @@ namespace sibir.pxp.client.core.controls
         private DevExpress.XtraGrid.GridControl gisGridControl;
         private DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView gisGridView;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand1;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn1;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnLayerName;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand12;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand19;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn2;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnTop;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand20;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn3;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnBase;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand2;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand21;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn4;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnTopDsrd;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand22;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn5;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnBaseDsrd;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand13;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn6;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnPermeability;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand3;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand11;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand23;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn10;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnRelParG;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand24;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn11;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnRelParN;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand25;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn12;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand26;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn8;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnDif_par_g;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand27;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn9;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnDif_par_n;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand17;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn13;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnR;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand28;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn14;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnR_bk;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand29;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn15;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnR_ik;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn16;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand8;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn18;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnKNG;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand18;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn17;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnKg;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand9;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn19;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn20;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnClay;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnVikiz;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand4;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand30;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn7;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand31;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn22;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnPorosity_o;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand32;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn21;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand5;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn23;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnSaturation_name;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBandInitialSaturation;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnInitialSaturation;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand6;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand612;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand613;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn24;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn2412;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn2413;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnLithology_name;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnCollector;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnPoreSpaceStructure;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand7;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumn25;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnSourceName;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand33;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand34;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand35;
@@ -1957,8 +1755,7 @@ namespace sibir.pxp.client.core.controls
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnComments;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnRNnk;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnPC;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnVikiz;
-        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnAK;
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn gridColumnAkk;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand46;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand47;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand48;
@@ -2024,8 +1821,7 @@ namespace sibir.pxp.client.core.controls
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand137;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand138;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand139;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand140;
-        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand141;
+        private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand145;
         private DevExpress.XtraBars.BarEditItem barItemWellGisVersion;
         private WellGisVersionEditCtrlRepItem WellGisVersionEditCtrlRepItem1;
         private DevExpress.XtraBars.Docking.DockManager dockManager;
